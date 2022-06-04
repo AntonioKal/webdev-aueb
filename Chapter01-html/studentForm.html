@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Στοιχεία εκπαιδευομένου</h1>
+    <form>
+        <table>
+        <tr>
+        <td><label for="lastname">Επώνυμο</label></td>
+        <td><input type="text" id="lastname"></td>
+    </tr>
+    <tr>
+ <td><label for="firstname">Όνομα</label></td>
+<td><input type="text" id="firstname"></td>
+    </tr>
+<tr>
+<td><label for="">Φύλο</label></td>
+<td><input type="radio" id="male" name="gender" checked><label for="male">Άνδρας</label>
+<input type="radio" id="female" name="gender"><label for="female">Γυναίκα</label></td>
+</tr>
+<tr>
+<td><label for="level">Επίπεδο σπουδών</label></td>
+<td><Select id="level">
+    <option value="Bsc">BSc</option>
+    <option value="Master">Master</option>
+    <option value="PhD">PhD</option>
+  </Select></td>
+</tr>
+<tr>
+<td><label for="" id="comments">Σχόλια</label></td>
+<td><textarea id="comments" cols="30" rows="10"></textarea></td>
+</tr>
+<tr>
+<td><button type="submit">Αποστολή στοιχείων</button></td>
+</tr>
+   </table>
+<button type="button" onclick="console.log('Hello baby')">Check submission</button>  
+</body>
+</html>
