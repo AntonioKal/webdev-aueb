@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+* {
+box-sizing: border-box;
+margin:0;
+padding:0;    
+}
+
+.container {
+width:100%;
+margin:0 auto;
+}
+
+.header {
+width:100%;
+margin: 0 auto;
+background-color: #363636;
+overflow: hidden;
+display:flex;
+align-items:center;
+
+}
+
+.logo {
+width:45%;
+float:left;
+}
+
+.logo > img {
+width:100%;
+height:auto;
+}
+
+
+.menu {
+width:55%;
+float:right;
+}
+
+.menu > ul {
+width:100%;
+display:flex;
+justify-content: space-around;
+   
+}
+
+.menu li {
+display:inline-block;     
+}
+
+.menu a {
+text-decoration:none;
+color:white;
+font-size:1.2rem;
+}
+
+
+.slider {
+width:100%;
+background-image: url(../img/art2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+}
+
+.title {
+width:70%;
+margin:0 auto;
+padding-top:200px;
+padding-bottom:60px;
+}
+
+.title > p{
+text-align: center;
+font-family:'Roboto slab', 'serif';
+font-size:35px;
+color:white;
+}
+
+.subtitle{
+width:60%;
+margin:0 auto;
+}
+
+.subtitle > p {
+text-align: center;
+font-family:'Quicksand', 'sans-serif';
+font-size:25px;
+color:rgb(243, 237, 237);
+padding-bottom:25px;
+}
+.main {
+width:100%;
+margin:0 auto;
+padding:40px 25px;    
+}
+
+.main-title{
+width:100%;
+margin:0 auto;
+padding-bottom:25px;
+}
+
+.main-title > h1 {
+font-family:'roboto slab','serif';
+}
+
+.main-text{
+width:100%;
+margin:0 auto;
+}
+
+.main-text > p{
+font-family:'Quicksand', 'sans-serif';
+line-height: 25px;
+}
+
+.footer{
+width:100%;
+margin:0 auto;
+padding: 30px 20px; 
+overflow:hidden; 
+background-color: #363636;
+display:flex;
+align-items:center;  
+}
+
+.copyright{
+width:85%;
+float:left;
+}
+
+.copyright > p{
+font-family:'Quicksand', 'sans-serif';
+font-size:0.8rem;
+color:white;
+}
+
+.social {
+width:15%;
+float:right;   
+display:flex;
+align-items:center; 
+}
+
+.social > p {
+margin-right:10px;
+font-family:'Quicksand', 'sans-serif';
+font-size:0.8rem;
+color:white;
+}
+
+.fab {
+color:blue;
+font-size:30px;
+margin-right:5px;
+}
