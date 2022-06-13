@@ -9,9 +9,14 @@ margin:0;
 padding:0;    
 }
 
+body, html{
+height:100%;    
+}
+
 .container {
 width:100%;
 margin:0 auto;
+height:100%;
 }
 
 .header {
@@ -21,6 +26,7 @@ background-color: #363636;
 overflow: hidden;
 display:flex;
 align-items:center;
+position:fixed;
 
 }
 
@@ -64,6 +70,8 @@ background-image: url(../img/art2.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position:center;
+height:100%;
+background-attachment: fixed;
 }
 
 .title {
