@@ -1,0 +1,141 @@
+.header{
+   background-color: white;
+}
+
+.logo {
+    width:10%;
+}
+
+.logo > img {
+    width:120px;
+    height:auto;  
+}
+
+.menu {
+    width:90%;
+}
+
+.menu > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style:none;
+    font-family: palatino;
+}
+
+.menu li:hover > a{
+    color:grey;
+}
+
+.menu a {
+    text-decoration: none;
+    color:black;
+    font-size:1.8rem;
+}
+
+.menu ul ul {
+    display:none;
+}
+
+.menu > ul > li:hover > ul{
+    display:block;
+    position:absolute;
+}
+
+.menu ul ul li{
+    border:1px solid black;
+    padding:10px;
+    color:black;
+    font-size:1.5rem;
+    text-align: center;
+}
+
+.menu ul ul li a {
+    font-size:1.4rem;
+    color:black;
+}
+
+.toggle-button {
+    width:90%;
+    justify-content:flex-end;
+    display:none;
+    margin-right:20px;
+}
+
+.toggle-button > button{
+    width:60px;
+    height:60px;
+}
+
+.toggle-menu{
+    text-align:center;
+    padding-top:160px;
+    display:none;
+}
+
+.toggle-menu > ul > li{
+    font-size:30px;
+    line-height:80px;
+    list-style: none;
+}
+
+.toggle-menu li > a{
+    text-decoration:none;
+    color:black;
+    font-family: palatino;
+}
+
+.toggle-menu > ul ul > li {
+    font-size:23px;
+    list-style: none;
+}
+
+
+.container-sm{
+    margin-top:250px;
+}
+
+.footer{
+    background-color: #004d4d;
+    padding:8px 8px;
+    color:white; 
+    border-top: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+}
+
+.copyright{
+    width:85%; 
+}
+    
+.copyright > p{
+    font-size:21px;  
+    font-family: palatino;  
+}
+.social{
+    width:15%;    
+}
+
+.social > p{
+    font-size:21px; 
+    font-family: palatino;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-instagram-square {
+    font-size:1.5rem; 
+    margin-left:5px;
+}
+
+@media (max-width:992px){
+
+    .toggle-button{
+        display:flex;
+    }
+
+    .menu {
+        display:none;
+    }
+
+
+}

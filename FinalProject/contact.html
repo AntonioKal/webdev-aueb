@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header d-flex align-items-center">
+        <div class="logo px-3">
+            <img src="logo.png" alt="Logo">
+        </div>
+
+        <div class="menu mt-4">
+            <ul>
+                <li><a href="index.html">Αρχική</a></li>  
+                <li><a href="">Σχετικά με εμάς</a></li>
+                <li><a href="">Υπηρεσίες</a>
+                <ul>
+                    <li><a href="#libSystem">Αυτοματοποιημένο σύστημα διαχείρισης βιβλιοθηκών</a></li>
+                    <li><a href="#cataloguing">Καταλογογράφηση</a></li>
+                    <li><a href="#digitalization">Ψηφιοποίηση - Τεκμηρίωση</a></li>
+                </ul>
+                </li>
+                <li><a href="">Τιμοκατάλογος</a></li>
+                <li><a href="contact.html">Επικοινωνία</a></li>
+            </ul>
+        </div>
+   
+        <div class="toggle-button">
+            <button type="button" onclick="showMenu()">&#9776;</button>
+        </div>
+    </div>
+
+        <div class="toggle-menu">
+            <ul>
+                <li><a href="">Αρχική</a></li>  
+                <li><a href="">Σχετικά με εμάς</a></li>
+                <li><a href="">Υπηρεσίες</a>
+                    <ul>
+                        <li><a href="">Αυτοματοποιημένο σύστημα διαχείρισης βιβλιοθηκών</a></li>
+                        <li><a href="">Καταλογογράφηση</a></li>
+                        <li><a href="">Ψηφιοποίηση - Τεκμηρίωση</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Τιμοκατάλογος</a></li>
+                <li><a href="">Επικοινωνία</a></li>
+            </ul>
+        </div>
+
+    <div class="container-sm">
+        <div class="card mt-3" style="background-color:#f2f2f2;">
+            <div class="text-center h3 mt-4 mb-5" style="color:black;">Φόρμα εκδήλωσης ενδιαφέροντος</div>
+                <form>
+                    <div class="form-group mx-auto mb-3 col-8 col-sm-7 col-md-6 col-lg-5 col-xl-4">
+                        <input type="text" class='form-control' placeholder="Ονοματεπώνυμο" required="text">
+                    </div>  
+                    
+                    <div class="form-group mx-auto mb-3 col-8 col-sm-7 col-md-6 col-lg-5 col-xl-4">
+                        <input type="mail" class='form-control' placeholder="Email" required="mail">
+                    </div>  
+                    
+                    <div class="form-group mx-auto mb-3 col-8 col-sm-7 col-md-6 col-lg-5 col-xl-4">
+                            <textarea class="form-control" cols="40" rows="5" placeholder="Το μήνυμα σας"></textarea>
+                    </div>
+                        
+                    <div class="form-group mx-auto mb-3 col-8 col-sm-7 col-md-6 col-lg-5 col-xl-4">
+                            <select class="form-select">
+                                <option selected>Επιθυμητή υπηρεσία</option>
+                                <option value="Option1">Υπηρεσίες καταλογογράφησης</option>
+                                <option value="Option2">Εγκατάσταση Αυτοματοποιημένου Συστήματος Διαχείρισης Βιβλιοθηκών</option>
+                                <option value="Option3">Υπηρεσίες ψηφιοποίησης</option>
+                            </select>
+                    </div>
+                            <div class="mx-auto mb-5 col-8 col-sm-7 col-md-6 col-lg-5 col-xl-4">
+                                <button type="submit" class="btn btn-secondary">Αποστολή</button>
+                            </div>
+                </form>
+        </div>
+    </div>
+    
+    <div class="footer mt-5 d-flex align-items-center">
+        <div class="copyright">
+            <p>&copy; All rights reserved by Kalaitzakis A.</p>
+        </div>
+        <div class="social d-flex align-items-center">
+            <p class="mb-1">Follow-us: </p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="contact.js"></script>
+</html>
