@@ -115,7 +115,7 @@ body, html{
 .slider {
     width:100%;
     margin:0 auto;  
-    background-image: url(library.jpeg);
+    background-image: url(./img/library.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
@@ -169,19 +169,19 @@ body, html{
 }
 
 #libSystem {
-    background-image: url(./system.jpg);
+    background-image: url(./img/system.jpg);
 }
 
 #cataloguing {
-    background-image: url(./cataloguing.jpg);
+    background-image: url(./img/cataloguing.jpg);
 }
 
 #classification{
-    background-image: url(.//categorie.jpg);
+    background-image: url(./img/categorie.jpg);
 }
 
 #digitalization {
-    background-image: url(./digitalization.jpg);
+    background-image: url(./img/digitalization.jpg);
 }
 
 .libSystem-text, .cataloguing-text, .classification-text, .digitalization-text{
